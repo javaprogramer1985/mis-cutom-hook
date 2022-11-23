@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-reducer/TodoReducer";
+import { todoReducer } from "./TodoReducer";
 
 const initialState = [];
 let todosCount = 0, pendingTodosCount = 0;
